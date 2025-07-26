@@ -1,0 +1,5 @@
+﻿<Solution>
+  <Project Path="Deduplicate\Deduplicate.csproj" Type="Classic C#" />
+  <Project Path="OrganizeJellyfin\OrganizeJellyfin.csproj" Type="Classic C#" />
+  <Project Path="TrimEmptyDirs\TrimEmptyDirs.csproj" Type="Classic C#" />
+</Solution>

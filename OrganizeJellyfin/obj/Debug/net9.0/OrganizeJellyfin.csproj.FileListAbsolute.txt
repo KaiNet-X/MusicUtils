@@ -1,0 +1,17 @@
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/bin/Debug/net9.0/OrganizeJellyfin
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/bin/Debug/net9.0/OrganizeJellyfin.deps.json
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/bin/Debug/net9.0/OrganizeJellyfin.runtimeconfig.json
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/bin/Debug/net9.0/OrganizeJellyfin.dll
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/bin/Debug/net9.0/OrganizeJellyfin.pdb
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/bin/Debug/net9.0/TagLibSharp.dll
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/obj/Debug/net9.0/OrganizeJellyfin.csproj.AssemblyReference.cache
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/obj/Debug/net9.0/OrganizeJellyfin.GeneratedMSBuildEditorConfig.editorconfig
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/obj/Debug/net9.0/OrganizeJellyfin.AssemblyInfoInputs.cache
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/obj/Debug/net9.0/OrganizeJellyfin.AssemblyInfo.cs
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/obj/Debug/net9.0/OrganizeJellyfin.csproj.CoreCompileInputs.cache
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/obj/Debug/net9.0/Organize.6CFF54CA.Up2Date
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/obj/Debug/net9.0/OrganizeJellyfin.dll
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/obj/Debug/net9.0/refint/OrganizeJellyfin.dll
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/obj/Debug/net9.0/OrganizeJellyfin.pdb
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/obj/Debug/net9.0/OrganizeJellyfin.genruntimeconfig.cache
+/home/kai/Documents/Deduplicate/OrganizeJellyfin/obj/Debug/net9.0/ref/OrganizeJellyfin.dll

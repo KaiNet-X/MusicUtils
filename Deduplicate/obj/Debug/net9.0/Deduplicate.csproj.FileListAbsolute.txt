@@ -1,0 +1,14 @@
+/home/kai/Documents/Deduplicate/Deduplicate/bin/Debug/net9.0/Deduplicate
+/home/kai/Documents/Deduplicate/Deduplicate/bin/Debug/net9.0/Deduplicate.deps.json
+/home/kai/Documents/Deduplicate/Deduplicate/bin/Debug/net9.0/Deduplicate.runtimeconfig.json
+/home/kai/Documents/Deduplicate/Deduplicate/bin/Debug/net9.0/Deduplicate.dll
+/home/kai/Documents/Deduplicate/Deduplicate/bin/Debug/net9.0/Deduplicate.pdb
+/home/kai/Documents/Deduplicate/Deduplicate/obj/Debug/net9.0/Deduplicate.GeneratedMSBuildEditorConfig.editorconfig
+/home/kai/Documents/Deduplicate/Deduplicate/obj/Debug/net9.0/Deduplicate.AssemblyInfoInputs.cache
+/home/kai/Documents/Deduplicate/Deduplicate/obj/Debug/net9.0/Deduplicate.AssemblyInfo.cs
+/home/kai/Documents/Deduplicate/Deduplicate/obj/Debug/net9.0/Deduplicate.csproj.CoreCompileInputs.cache
+/home/kai/Documents/Deduplicate/Deduplicate/obj/Debug/net9.0/Deduplicate.dll
+/home/kai/Documents/Deduplicate/Deduplicate/obj/Debug/net9.0/refint/Deduplicate.dll
+/home/kai/Documents/Deduplicate/Deduplicate/obj/Debug/net9.0/Deduplicate.pdb
+/home/kai/Documents/Deduplicate/Deduplicate/obj/Debug/net9.0/Deduplicate.genruntimeconfig.cache
+/home/kai/Documents/Deduplicate/Deduplicate/obj/Debug/net9.0/ref/Deduplicate.dll
