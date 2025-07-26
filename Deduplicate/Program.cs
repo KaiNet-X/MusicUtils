@@ -37,29 +37,53 @@ if (collisions.All(c => c.Value.Length == 1))
     return;
 }
 
-foreach (var entry in collisions)
+foreach (var (_, songs) in collisions)
 {
-    if (entry.Value.Length > 1)
+    if (songs.Length > 1)
     {
-        Console.WriteLine("COLLISION DETECTED");
-        
-        for (var i = 0; i < entry.Value.Length; i++)
-            Console.WriteLine($"{i}: {Path.GetRelativePath(directory.FullName, entry.Value[i])}");
-        
-        Console.Write("Select a number to keep or press s to skip: ");
-        
-        var key = Console.ReadKey();
-        if (key.Key == ConsoleKey.S) ;
-        
-        if (int.TryParse(key.KeyChar.ToString(), out var n) && n >= 0 && n < entry.Value.Length)
-            File.Delete(entry.Value[n]);
-        
-        Console.WriteLine();
+        AutoDelete(songs);
+        //PromptDelete(songs);
     }
 }
 
 return;
 
+void PromptDelete(string[] songs)
+{
+    Console.WriteLine("COLLISION DETECTED");
+        
+    for (var i = 0; i < songs.Length; i++)
+        Console.WriteLine($"{i}: {Path.GetRelativePath(directory.FullName, songs[i])}");
+        
+    Console.Write("Select a number to keep or press s to skip: ");
+        
+    var key = Console.ReadKey();
+    if (key.Key == ConsoleKey.S) ;
+        
+    if (int.TryParse(key.KeyChar.ToString(), out var keepIndex) && keepIndex >= 0 && keepIndex < songs.Length)
+    {
+        for (var i = 0; i < songs.Length; i++)
+        {
+            if (i != keepIndex)
+                File.Delete(songs[i]);
+        }
+    }
+        
+    Console.WriteLine("");
+}
+
+void AutoDelete(string[] songs)
+{
+    Console.WriteLine("COLLISION DETECTED");
+        
+    for (var i = 0; i < songs.Length; i++)
+        Console.WriteLine($"{i}: {Path.GetRelativePath(directory.FullName, songs[i])}");
+
+    for (var i = 1; i < songs.Length; i++)
+        File.Delete(songs[i]);
+    
+    Console.WriteLine($"Kept {songs[0]}...\r\n");
+}
 async Task GetEntries(DirectoryInfo directoryInfo)
 {
     // Breadth first search

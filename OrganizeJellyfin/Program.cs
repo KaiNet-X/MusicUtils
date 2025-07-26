@@ -86,9 +86,31 @@ foreach (var (name, artist) in artists)
     }
 }
 
+void MoveSong(File file, string path)
+{
+    var title = file.Tag.Title;
+    if (string.IsNullOrWhiteSpace(title))
+        title = Path.GetFileNameWithoutExtension(path);
+    
+    var artists = ((IEnumerable<string>)[..file.Tag.AlbumArtists,..file.Tag.Performers]).Distinct().ToArray();
+    var album = file.Tag.Album;
+    
+    if (artists.Length > 0)
+    {
+        var artist = artists[0];
+        var artistDir = directory.CreateSubdirectory(artist);
+
+        if (album != null)
+        {
+            var albumDir = artistDir.CreateSubdirectory(album);
+            
+        }
+    }
+    
+}
+
 async Task GetEntries(DirectoryInfo directoryInfo)
 {
-    // Breadth first search
     foreach (var fileInfo in directoryInfo.GetFiles())
     {
         if (fileInfo.Extension != ".mp3") continue;
