@@ -1,0 +1,15 @@
+/home/kai/Documents/MusicUtils/AutoDeduplicate/bin/Debug/net9.0/AutoDeduplicate
+/home/kai/Documents/MusicUtils/AutoDeduplicate/bin/Debug/net9.0/AutoDeduplicate.deps.json
+/home/kai/Documents/MusicUtils/AutoDeduplicate/bin/Debug/net9.0/AutoDeduplicate.runtimeconfig.json
+/home/kai/Documents/MusicUtils/AutoDeduplicate/bin/Debug/net9.0/AutoDeduplicate.dll
+/home/kai/Documents/MusicUtils/AutoDeduplicate/bin/Debug/net9.0/AutoDeduplicate.pdb
+/home/kai/Documents/MusicUtils/AutoDeduplicate/obj/Debug/net9.0/AutoDeduplicate.GeneratedMSBuildEditorConfig.editorconfig
+/home/kai/Documents/MusicUtils/AutoDeduplicate/obj/Debug/net9.0/AutoDeduplicate.AssemblyInfoInputs.cache
+/home/kai/Documents/MusicUtils/AutoDeduplicate/obj/Debug/net9.0/AutoDeduplicate.AssemblyInfo.cs
+/home/kai/Documents/MusicUtils/AutoDeduplicate/obj/Debug/net9.0/AutoDeduplicate.csproj.CoreCompileInputs.cache
+/home/kai/Documents/MusicUtils/AutoDeduplicate/obj/Debug/net9.0/AutoDeduplicate.sourcelink.json
+/home/kai/Documents/MusicUtils/AutoDeduplicate/obj/Debug/net9.0/AutoDeduplicate.dll
+/home/kai/Documents/MusicUtils/AutoDeduplicate/obj/Debug/net9.0/refint/AutoDeduplicate.dll
+/home/kai/Documents/MusicUtils/AutoDeduplicate/obj/Debug/net9.0/AutoDeduplicate.pdb
+/home/kai/Documents/MusicUtils/AutoDeduplicate/obj/Debug/net9.0/AutoDeduplicate.genruntimeconfig.cache
+/home/kai/Documents/MusicUtils/AutoDeduplicate/obj/Debug/net9.0/ref/AutoDeduplicate.dll

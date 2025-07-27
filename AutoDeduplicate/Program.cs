@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.Collections.Concurrent;
+using System.Security.Cryptography;
 using System.Text;
 
 Console.Write("Path: ");
@@ -14,7 +15,9 @@ var directory = new DirectoryInfo(path);
 
 var taskQueue = new Queue<Task>();
 
-var collisions = new HashSet<string>();
+var collisions = new ConcurrentDictionary<string, int>();
+
+Console.WriteLine("Running...");
 
 await Deduplicate(directory);
 
@@ -35,7 +38,7 @@ async Task Deduplicate(DirectoryInfo directoryInfo)
                 await using var file = fileInfo.OpenRead();
                 var hash = await MD5.HashDataAsync(file);
                 
-                if (!collisions.Add(Convert.ToBase64String(hash)))
+                if (!collisions.TryAdd(Convert.ToBase64String(hash), 0))
                 {
                     File.Delete(fileInfo.FullName);
                     Console.WriteLine($"Automatically removed {p}");
